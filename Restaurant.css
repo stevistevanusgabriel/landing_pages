@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+@import url('http://fonts.cdnfonts.com/css/yonezawa');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Nothing+You+Could+Do&display=swap');
+
+*
+{
+   box-sizing: border-box;
+}
+
+
+body
+{
+    background: rgb(0, 0, 0) !important;
+}
+
+
+header
+{
+    position: fixed;
+    top: 0;
+}
+
+#nav-bar
+{
+    background-color: rgba(0, 0, 0, 0.795) !important;
+}
+
+
+.navbar-nav > li{
+    margin-right: 50px;
+    margin-left: 0px;
+    margin-top: 5px;
+    
+}
+
+.nav-link
+{
+    color: white !important;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    transition: transform .3s;
+}
+
+.nav-link:hover
+{
+    color: rgb(255, 102, 0)!important;
+    background-color: black;
+    width: fit-content;
+    border-radius: 5px;
+    text-shadow: none;
+    transform:translateY(5px);
+ 
+}
+
+
+
+.logo-name
+{
+    -webkit-text-fill-color: #6f4e37;
+    font-size: 22px !important;    
+    font-family:'Nothing You Could Do', sans-serif ;
+    font-weight: bold;                                    
+}
+
+
+
+span > .fas
+{
+    -webkit-text-fill-color: #6f4e37;
+    font-size: 20px;
+    transition: transform .1s;
+    
+}
+
+.fas:active
+{
+    transform:rotate(90deg);
+}
+
+
+
+#Welcome-section
+{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.527)10%,rgba(160, 145, 145, 0.418)),url(Images/restaurant-background2.jpg);
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-position:left;
+    background-attachment: fixed;
+}
+
+ .Text-over-image
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width:100%;
+ 
+}
+
+.center-text
+{
+    color:rgb(255, 255, 255);
+    font-size: 40px !important;
+    align-self: center;
+    font-family:'Delius Unicase', sans-serif ;
+}
+
+.tagline
+{
+    color:rgb(255, 255, 255);
+    font-size:10.5px !important;
+    align-self: center;
+    text-shadow: 2px 2px black;
+    font-family:'Delius Unicase', sans-serif ;
+}
+
+
+
+
+@media (min-width:768px)
+{
+    #Welcome-section
+    {
+        width: 100%;
+        height: 100vh !important;
+        background-image:url(Images/main-background.jpg);
+        background-repeat: no-repeat; 
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+    }
+
+    .center-text
+    {
+        color:rgb(255, 255, 255);
+        font-size: 40px !important;
+        align-self: center;
+        font-family:'Delius Unicase', sans-serif ;
+    }
+
+    .tagline
+    {
+        color:rgb(255, 255, 255);
+        font-size:10.5px !important;
+        align-self: center;
+        text-shadow: 2px 2px black;
+        font-family:'Delius Unicase', sans-serif ;
+    }
+
+}
+
+#About-us
+{
+    width:100%;
+    height:80vh;
+    background-color: white;
+}
+
+#Menu
+{
+    width:100%;
+    height:100vh;
+    background-image:url(Images/mobile-background.jpg);
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+@media (max-width:571px)
+{
+    .navbar-nav
+    {
+        background-color: rgba(0, 0, 0, 0.795);
+       
+    }
+
+}
+
+
+
